@@ -1,0 +1,38 @@
+/* header */
+.header {
+	text-align: center;
+}
+
+.section-title {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+/* menu */
+.menu {
+	background: #42e2f4;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+.menu-item {
+	margin-top: auto;		
+	margin-bottom: auto;
+}
+
+/* body */
+.todo {
+	text-align: center;
+}
+
+.todo-text {
+	margin-top: 2rem;
+}
