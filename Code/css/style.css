@@ -1,5 +1,5 @@
 /* header */
-.header {
+.section {
 	text-align: center;
 }
 
@@ -10,8 +10,8 @@
 
 /* menu */
 .menu {
-	background: #42e2f4;
-	text-align: center;
+	background: #2d99f4;
+	justify-content: space-between;
 }
 
 a {
@@ -23,12 +23,22 @@ a:hover {
 	color: black;
 }
 
+.nav {
+	justify-content: space-between;
+	width: 100%;
+}
+
 .menu-item {
-	margin-top: auto;		
-	margin-bottom: auto;
+	margin-top: 1rem;		
+	margin-bottom: 1rem;
+	width: 33%;
 }
 
 /* body */
+.about-me {
+	margin-top: 2rem;
+}
+
 .todo {
 	text-align: center;
 }
