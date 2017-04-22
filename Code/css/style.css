@@ -1,22 +1,115 @@
-/* BASE */
-a {
+body {
+	background-color: #f7f7f4
+}
+
+#whole {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	min-width: 750px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: #f4f4ef;
+}
+
+h1, span {
+	margin: 0;
+	padding: 0;
+}
+
+nav > ol, ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav > ul li a {
+	color: black;
 	text-decoration: none;
+}
+
+#main > article > p a {
 	color: black;
 }
 
-a:hover {
-	color: black;
+nav > ul li h1 {
+	color: #303F42;
+	-webkit-margin-before: .3em;
+	-webkit-margin-after: .3em;
 }
 
-/* Side Menu */
-.side-menu {
-	width: 10%;
+#main-wrapper {
+	float: right;
+	width: 75%;	
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.side-menu > nav {
-	border-right: 2px solid #ee7b00;
+#main > article {
+	padding: 5px 0 0 15px;
 }
 
-.main-text {
-	width: 90%;
+#main > header {
+	min-height: 100%;
+	padding-bottom: .5em;
+	padding-left: 15px;
+	border-bottom: 2px solid #EEC015;
+	color: #303F42;
+}
+
+#main > article > h2 {
+	color: #303F42;
+}
+
+#main > article > h2, p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+#side-menu {
+	position: relative;
+	right: 0%;
+	/*padding: 0 15px 0 15px;*/
+	width: 25%;
+	overflow: hidden;
+}
+
+#side-menu > nav {
+	padding-right: 15px;
+	padding-top: 2.9em; /* aligns top of nav with content section */
+	text-align: right;
+	border-right: 2px solid #EEC015;
+}
+
+footer {
+	clear: both; /* keeps footer in one piece */
+	padding-top: 20px;
+	text-align: right;
+	color: #EEC015;
+}
+
+footer	span {
+	color: #303F42;
+}
+
+article div div ul {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+/* Resume Page */
+.duration {
+	float: left;
+	width: 25%;
+}
+
+.info { 
+	float: left;
+	padding-left: 10px;
+	margin-right: 0;
+}
+
+.info .sub-info {
+	margin-left: 1em;
 }
