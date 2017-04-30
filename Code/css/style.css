@@ -6,7 +6,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	min-width: 750px;
-	width: 70%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
@@ -76,8 +76,9 @@ nav > ul li h1 {
 }
 
 #side-menu > nav {
+	height: 100%;
 	padding-right: 15px;
-	padding-top: 2.9em; /* aligns top of nav with content section */
+	padding-top: 4em; /* aligns top of nav with content section */
 	text-align: right;
 	border-right: 2px solid #EEC015;
 }
@@ -99,17 +100,31 @@ article div div ul {
 }
 
 /* Resume Page */
-.duration {
-	float: left;
-	width: 25%;
+th {
+	font-weight: 500;
+	font-size: 150%;
 }
 
-.info { 
-	float: left;
-	padding-left: 10px;
-	margin-right: 0;
+td, th {
+	text-align: left;
+	padding: 0;
+	vertical-align: top;
 }
 
-.info .sub-info {
-	margin-left: 1em;
+.top-info {
+	text-transform: uppercase;
+	font-weight: 600;
 }
+
+.top-info, .sub-info {
+	padding: 0;
+}
+
+.sub-italic {
+	font-style: italic;
+}
+
+#resume-footer {
+	margin-top: 20px;
+}
+
