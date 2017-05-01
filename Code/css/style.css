@@ -28,14 +28,15 @@ nav > ul li a {
 	text-decoration: none;
 }
 
-#main > article > p a {
+#main > article > a, p a {
 	color: black;
 }
 
 nav > ul li h1 {
 	color: #303F42;
-	-webkit-margin-before: .3em;
-	-webkit-margin-after: .3em;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 5px 0 0 0;
 }
 
 #main-wrapper {
@@ -67,6 +68,10 @@ nav > ul li h1 {
 	-webkit-margin-after: 0;
 }
 
+#main > article > h2 {
+	margin: 5px 0 0 0;
+}
+
 #side-menu {
 	position: relative;
 	right: 0%;
@@ -78,7 +83,7 @@ nav > ul li h1 {
 #side-menu > nav {
 	height: 100%;
 	padding-right: 15px;
-	padding-top: 4em; /* aligns top of nav with content section */
+	padding-top: 2.75em; /* aligns top of nav with content section */
 	text-align: right;
 	border-right: 2px solid #EEC015;
 }
@@ -100,6 +105,11 @@ article div div ul {
 }
 
 /* Resume Page */
+#resume {
+	background-color: #f7f7f4;
+	padding: 5px 5px 0 10px;
+}
+
 th {
 	font-weight: 500;
 	font-size: 150%;
